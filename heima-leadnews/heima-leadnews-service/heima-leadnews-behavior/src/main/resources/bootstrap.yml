@@ -1,0 +1,18 @@
+server:
+  port: 51807
+spring:
+  application:
+    name: leadnews-behavior
+  kafka:
+    bootstrap-servers: 100.75.29.25:9092
+    producer:
+      retries: 10
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 100.75.29.25:8848
+      config:
+        server-addr: 100.75.29.25:8848
+        file-extension: yml

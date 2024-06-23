@@ -1,0 +1,10 @@
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*.xml
+  # 设置别名包扫描路径，通过该属性可以给包中的类注册别名
+  type-aliases-package: com.heima.model.article.pojos
+  global-config:
+    db-config:
+      # 新版中的数据中心ID配置
+      datacenter-id: 1
+      # 新版中的工作机器ID配置
+      worker-id: 1

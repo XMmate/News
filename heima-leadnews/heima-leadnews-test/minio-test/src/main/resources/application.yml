@@ -1,0 +1,13 @@
+minio:
+  accessKey: minio
+  secretKey: minio123
+  bucket: leadnews
+#  endpoint: http://39.99.229.209:9000
+#  readPath: http://39.99.229.209:9000
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/leadnews_wemedia?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456

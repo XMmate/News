@@ -1,0 +1,14 @@
+server:
+  port: 51801
+spring:
+  application:
+    name: leadnews-user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 100.75.29.25:8848
+      config:
+        server-addr: 100.75.29.25:8848
+        file-extension: yml
+  profiles:
+    active: dev

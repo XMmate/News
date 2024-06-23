@@ -1,0 +1,11 @@
+server:
+  port: 8000
+
+xxl:
+  job:
+    admin:
+      addresses: http://100.75.29.25:9300/xxl-job-admin
+
+    executor:
+      appname: xxl-job-executor-sample
+      port: 9999
